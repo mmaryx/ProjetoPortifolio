@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(47,70,49);
+    background: linear-gradient(207deg, rgba(47,70,49,1) 10%, rgba(81,165,82,1) 74%);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #535353;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.header-image {
+    height: 48px;
+}
+
+.header-title{
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-menu-item:nth-child(2){
+    color: rgb(109, 196, 74);
+    border-bottom: 2px solid rgb(73, 234, 9);
+}
+.header-menu-item:hover {
+    color: rgb(73, 234, 9);
+    border-bottom: 2px solid rgb(73, 234, 9);
+}
+
+.content{
+    margin-bottom: 170px;
+    /* border-top: 0.4px solid #654848; */
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+.main-content-written{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.main-content-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.main-content-paragraph{
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+.image{
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-top: 0.4px solid #ffffff;
+    gap: 10px;
+}
+
+.footer-image{
+    height: 25px;
+}
+
+.footer-text {
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+}
+.footer-text:hover {
+    color: rgb(149, 173, 141);
+}
+
+
