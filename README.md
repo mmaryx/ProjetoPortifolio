@@ -1,1 +1,1 @@
-# This is a Landing Page for my html/css studies.
+# Essa é uma Landing Page para os meus estudos de html/css.
